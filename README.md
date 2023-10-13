@@ -100,7 +100,7 @@ Enjoy your new Spring Boot Todo List Application! If you have any questions or n
 
 If you have any questions, issues or suggestions, please feel free to contact the developer:
 
-Name: Nelson Arrais
+Name: Nelson Arrais <br/>
 Email: nelsonarrais9@gmail.com
 
 ## Make a Donation
