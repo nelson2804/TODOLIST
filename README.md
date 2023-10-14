@@ -96,17 +96,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Enjoy your new Spring Boot Todo List Application! If you have any questions or need further assistance, please don't hesitate to ask.
 
-## Contact
-
-If you have any questions, issues or suggestions, please feel free to contact the developer:
-
-Name: Nelson Arrais <br/>
-Email: nelsonarrais9@gmail.com
-
-## Make a Donation
-
-If you wish to support the continued development of this project, you can make a donation via PIX. Your generosity is greatly appreciated.
-
-PIX key: nelsonarrais9@gmail.com
-
-Nubank
