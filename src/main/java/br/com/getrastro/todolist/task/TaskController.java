@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.rocketseat.todolist.utils.Utils;
+import br.com.getrastro.todolist.utils.Utils;
 import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
@@ -30,8 +30,6 @@ public class TaskController {
     taskModel.setIdUser((UUID) idUser);
 
     var currentDate = LocalDateTime.now();
-    // 10/11/2023 - Current
-    // 10/10/2023 - startAt
     if(currentDate.isAfter(taskModel.getStartAt()) || currentDate.isAfter(taskModel.getEndAt())) {
       return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("A data de início / data de término deve ser maior do que a data atual");
     }
